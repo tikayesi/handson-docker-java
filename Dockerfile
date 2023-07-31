@@ -39,4 +39,4 @@ WORKDIR /app
 COPY --from=build /app/target/simple-todo-0.0.1-SNAPSHOT.jar /app/simple-todo-0.0.1-SNAPSHOT.jar
 
 # Eksekusi perintah ketika container berjalan
-CMD ["java", "-jar", "/app/simple-todo-0.0.1-SNAPSHOT.jarr"]
+CMD ["java", "-jar", "/app/simple-todo-0.0.1-SNAPSHOT.jar"]
